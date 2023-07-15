@@ -254,7 +254,7 @@ function resizeText() {
                 }
             
                 if (e.target.type === 'button' && e.target.getAttribute('kes-key') === 'defaultButton') {
-                    console.log('Reset defaults button clicked');
+                    console.log('Reset default button !!clicked!!');
                     defaultButton.style.backgroundColor = '#079D0C'
                     setTimeout(() => buttonStyle(defaultButton), 500);
 
